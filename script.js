@@ -221,7 +221,7 @@ function getUserCoorinates(){
   navigator.geolocation.getCurrentPosition(position => {
     let {latitude, longitude} = position.coords;
     console.log(latitude, longitude);
-    let GIOCODING_API_URL = `http://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&limit=1&appid=${api_key}`;
+    let GIOCODING_API_URL = `https://api.openweathermap.org/geo/1.0/reverse?lat=${latitude}&lon=${longitude}&limit=1&appid=${api_key}`;
     fetch(GIOCODING_API_URL).then(res => res.json()).then(data => {
       console.log(data);
       let {name, state, country} = data[0];
