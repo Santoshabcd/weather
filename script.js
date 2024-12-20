@@ -19,7 +19,7 @@ const api_key = '7cda13585f230b1b84e3382e6bd0ae63';
 function getWeatherDetails(name, lat, lon, country, state) {
     let FORCAST_URL_API = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${api_key}`,
      WEATHER_URL_API = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${api_key}`,
-     AIR_PALUTION_URL_API = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=${api_key}`,
+     AIR_PALUTION_URL_API = `https://api.openweathermap.org/data/2.5/air_pollution?lat=${lat}&lon=${lon}&appid=${api_key}`,
      days = [
         'Sunday',
         'Monday',
