@@ -336,6 +336,9 @@ body > div.container > div > div > button.locationbtn{
     .weather-data .weather-rigth .hourly-forecast{
         grid-template-columns: repeat(3, 1fr);
     }
+    h1{
+        color:var(--bg-color1)
+    }
 }
 
 @media(max-width:380px){
