@@ -19,8 +19,10 @@ body {
     min-height: 100vh;
     font-family: sans-serif;
     padding: 0 15px;
-    background-color: var(--bg-color1);
+   
     color: #fff;
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/blurred_bg.jpg') no-repeat center center fixed;
+  background-size: cover;
     
 }
 
@@ -29,13 +31,17 @@ hr{
 }
 
 .container{
-    background-color: #212529;
+    
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/blurred_bg.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .header{
  position: sticky;
  top: 0;
- background-color: var(--bg-color1);
+ background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/blurred_bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+ 
  display: flex;
  justify-content: space-between;
  align-items: center;
@@ -44,7 +50,9 @@ hr{
 }
 
 #city-input{
-    background-color: var(--bg-color2);
+   
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/18468/bl-bg.png') no-repeat center center fixed;
+  background-size: cover;
     border: none;
     padding: 12px;
     font-size: 16px;
@@ -74,7 +82,8 @@ body > div.container > div > div > button.locationbtn{
 }
 
 .card{
-    background-color: var(--bg-color2);
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/18468/bl-bg.png') no-repeat center center fixed;
+  background-size: cover;
     padding: 15px;
     border-radius: 15px;
     margin-bottom: 15px;
